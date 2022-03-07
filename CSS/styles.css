@@ -1,0 +1,133 @@
+
+
+
+
+html{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+a:link {
+  color: rgb(5, 95, 155);
+ font-family: "Marker Felt";
+font-weight: thin;
+}
+
+/* visited link */
+
+
+
+.nav{
+  background-color: rgb(21, 105, 202);
+  display: flex;
+  margin-top: 0px;
+}
+.nav a{
+display: block;
+color: white;
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+font-family: "Krungthep";
+font-weight: bold;
+float: left;
+
+border-right: 1px solid rgb(0, 0, 0);
+border-left: 1px solid rgb(0, 0, 0);
+}
+.nav img{
+display: block;
+float: left;
+
+}
+
+.nav a:hover {
+  color: rgb(255, 255, 255);
+
+ font-weight: bold;
+ background-color: rgb(192, 11, 95);
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+
+
+.center{
+margin: auto;
+
+text-align: center;
+padding: auto;
+}
+
+
+
+
+.side {
+flex: 30%;
+background-color: #f1f1f1;
+padding: 20px;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+html{
+background-color: black;
+}
+
+body{
+background-color: #000000;
+}
+.side {
+background-color: #2c2b2b;
+}
+.contentArea{
+color: #3f3f3f;
+
+}
+p{
+  color:  rgb(255, 255, 255);
+}
+
+label{
+  color: rgb(255, 255, 255)
+ }
+
+ h1, h2, h3, h4, h5, h6{
+  color: rgb(255, 255, 255)
+ }
+}
+
+@media screen and (max-width: 700px) {
+.row, .nav {   
+  flex-direction: column;
+}
+}
+.meimg img {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+.contentArea {
+flex: 70%;
+
+padding: 20px;
+}
+.contentArea h1{
+text-align: center;
+}
+.row {  
+display: flex;
+flex-wrap: wrap;
+}
+
+
+* {
+box-sizing: border-box;
+}
